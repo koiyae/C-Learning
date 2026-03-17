@@ -54,7 +54,7 @@ int main(void) {
     
     // Liberar a memória quando terminar
     free(ptr);
-    ptr = NULL; // Evitar dangling pointer (faz sentido se for usado depois é variável global/estática)
+    ptr = NULL; // Evitar dangling pointer (faz sentido se for usado depois ou é variável global/estática)
     
     return 0;
 }
